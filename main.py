@@ -27,6 +27,7 @@ import pygame
 import pyaudio
 
 pygame.init()
+pygame.display.set_caption('- 아이네')
 
 audio = pyaudio.PyAudio()
 
