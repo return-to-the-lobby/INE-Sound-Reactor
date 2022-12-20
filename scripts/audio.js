@@ -5,7 +5,7 @@ function GetDevice() {
 
 function ChangeSource(value) {
     let element = document.getElementById('image')
-    return element.setAttribute('src', `Images/${value}.png`);
+    return element.setAttribute('src', `images/${value}.png`);
 }
 
 function BeginProcess(device) {
