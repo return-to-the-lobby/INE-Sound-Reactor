@@ -30,7 +30,7 @@ function BeginProcess(device) {
                     (previous, current) => previous + current, 0,
                 );
                 let average = summary / array.length;
-                console.log(average)
+                console.log(average);
                 if (average >= 0 && average < 10) {
                     return ChangeSource('0');
                 }
